@@ -176,6 +176,15 @@ public class MainActivity extends ReactActivity {
 }
 ```
 
+Após este passo, devemos acrescentar isso nas versões mais atuais do React-Native, no final do arquivo `android/gradle.properties`:
+
+```
+(...)
+// Adicionado:
+android.useAndroidX=true
+android.enableJetifier=true
+```
+
 ---
 
 ### Edição
